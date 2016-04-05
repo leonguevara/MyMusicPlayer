@@ -38,7 +38,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <segue destination="Uyj-k2-vbF" kind="show" identifier="tableSegue" id="64S-32-j0g"/>
+                        <segue destination="Uyj-k2-vbF" kind="show" identifier="tableSegue" id="3Mx-c2-KzL"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Hf-NL-Upe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -70,7 +70,7 @@
                                     <constraint firstAttribute="height" constant="21" id="mUS-Ek-Ay5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYd-dE-8Vr">
@@ -116,7 +116,7 @@
                                     <constraint firstAttribute="height" constant="21" id="kMx-mD-gX4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="g85-aO-IBl">
@@ -180,6 +180,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0vz-3d-Pfi"/>
+        <segue reference="3Mx-c2-KzL"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -15,11 +15,13 @@ class MusicLibraryViewController: UITableViewController {
                            "Danse macabre",
                            "Mr. Sandman",
                            "The Magnificent Seven"]
+    
+    var selectedIndex : Int = 0;
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -46,6 +48,10 @@ class MusicLibraryViewController: UITableViewController {
         
 
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("tableSegue", sender: indexPath)
     }
 
     /*
@@ -83,14 +89,22 @@ class MusicLibraryViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        let player = segue.destinationViewController as! MusicPlayerViewController
+        
+        if segue.identifier == "tableSegue" {
+            selectedIndex = (sender as! NSIndexPath).row
+        } else {
+            selectedIndex = Int(arc4random_uniform(UInt32(songCollection.count)))
+        }
+        
+        player.songName = songCollection[selectedIndex]
     }
-    */
 
 }

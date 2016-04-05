@@ -15,10 +15,14 @@ class MusicPlayerViewController: UIViewController {
     @IBOutlet weak var songTitle: UILabel!
     @IBOutlet weak var volume: UISlider!
     
+    var songName : String = "";
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        songTitle.text = songName
+        albumCover.image = UIImage(named: songName + ".jpg")
     }
 
     override func didReceiveMemoryWarning() {
