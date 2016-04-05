@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60FD0691CB3F8CC002D26D4 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60FD0681CB3F8CC002D26D4 /* MusicPlayerViewController.swift */; };
 		F66656BE1CB3EFCC00B5EFA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66656BD1CB3EFCC00B5EFA8 /* AppDelegate.swift */; };
 		F66656C11CB3EFCD00B5EFA8 /* MyMusicPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F66656BF1CB3EFCD00B5EFA8 /* MyMusicPlayer.xcdatamodeld */; };
 		F66656C31CB3EFCD00B5EFA8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66656C21CB3EFCD00B5EFA8 /* MasterViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F60FD0681CB3F8CC002D26D4 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		F66656BA1CB3EFCB00B5EFA8 /* MyMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66656BD1CB3EFCC00B5EFA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66656C01CB3EFCD00B5EFA8 /* MyMusicPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMusicPlayer.xcdatamodel; sourceTree = "<group>"; };
@@ -39,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F60FD06A1CB3F90D002D26D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F60FD0681CB3F8CC002D26D4 /* MusicPlayerViewController.swift */,
+				F66656C21CB3EFCD00B5EFA8 /* MasterViewController.swift */,
+				F66656C41CB3EFCD00B5EFA8 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		F66656B11CB3EFCB00B5EFA8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +70,8 @@
 		F66656BC1CB3EFCC00B5EFA8 /* MyMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				F60FD06A1CB3F90D002D26D4 /* Controllers */,
 				F66656BD1CB3EFCC00B5EFA8 /* AppDelegate.swift */,
-				F66656C21CB3EFCD00B5EFA8 /* MasterViewController.swift */,
-				F66656C41CB3EFCD00B5EFA8 /* DetailViewController.swift */,
 				F66656C61CB3EFCD00B5EFA8 /* Main.storyboard */,
 				F66656C91CB3EFCD00B5EFA8 /* Assets.xcassets */,
 				F66656CB1CB3EFCD00B5EFA8 /* LaunchScreen.storyboard */,
@@ -143,6 +154,7 @@
 			files = (
 				F66656C11CB3EFCD00B5EFA8 /* MyMusicPlayer.xcdatamodeld in Sources */,
 				F66656BE1CB3EFCC00B5EFA8 /* AppDelegate.swift in Sources */,
+				F60FD0691CB3F8CC002D26D4 /* MusicPlayerViewController.swift in Sources */,
 				F66656C31CB3EFCD00B5EFA8 /* MasterViewController.swift in Sources */,
 				F66656C51CB3EFCD00B5EFA8 /* DetailViewController.swift in Sources */,
 			);
@@ -294,6 +306,7 @@
 				F66656D31CB3EFCD00B5EFA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
