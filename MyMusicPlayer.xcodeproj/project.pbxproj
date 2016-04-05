@@ -8,10 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F60FD0691CB3F8CC002D26D4 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60FD0681CB3F8CC002D26D4 /* MusicPlayerViewController.swift */; };
+		F60FD0761CB40153002D26D4 /* Danse macabre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60FD06C1CB40153002D26D4 /* Danse macabre.jpg */; };
+		F60FD0771CB40153002D26D4 /* Danse macabre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F60FD06D1CB40153002D26D4 /* Danse macabre.mp3 */; };
+		F60FD0781CB40153002D26D4 /* Moonlight Serenade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60FD06E1CB40153002D26D4 /* Moonlight Serenade.jpg */; };
+		F60FD0791CB40153002D26D4 /* Moonlight Serenade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F60FD06F1CB40153002D26D4 /* Moonlight Serenade.mp3 */; };
+		F60FD07A1CB40153002D26D4 /* Mr. Sandman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60FD0701CB40153002D26D4 /* Mr. Sandman.jpg */; };
+		F60FD07B1CB40153002D26D4 /* Mr. Sandman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F60FD0711CB40153002D26D4 /* Mr. Sandman.mp3 */; };
+		F60FD07C1CB40153002D26D4 /* So Danço Samba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60FD0721CB40153002D26D4 /* So Danço Samba.jpg */; };
+		F60FD07D1CB40153002D26D4 /* So Danço Samba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F60FD0731CB40153002D26D4 /* So Danço Samba.mp3 */; };
+		F60FD07E1CB40153002D26D4 /* The Magnificent Seven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60FD0741CB40153002D26D4 /* The Magnificent Seven.jpg */; };
+		F60FD07F1CB40153002D26D4 /* The Magnificent Seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F60FD0751CB40153002D26D4 /* The Magnificent Seven.mp3 */; };
+		F60FD0811CB40C1A002D26D4 /* MusicLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60FD0801CB40C1A002D26D4 /* MusicLibraryViewController.swift */; };
 		F66656BE1CB3EFCC00B5EFA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66656BD1CB3EFCC00B5EFA8 /* AppDelegate.swift */; };
 		F66656C11CB3EFCD00B5EFA8 /* MyMusicPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F66656BF1CB3EFCD00B5EFA8 /* MyMusicPlayer.xcdatamodeld */; };
-		F66656C31CB3EFCD00B5EFA8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66656C21CB3EFCD00B5EFA8 /* MasterViewController.swift */; };
-		F66656C51CB3EFCD00B5EFA8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66656C41CB3EFCD00B5EFA8 /* DetailViewController.swift */; };
 		F66656C81CB3EFCD00B5EFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66656C61CB3EFCD00B5EFA8 /* Main.storyboard */; };
 		F66656CA1CB3EFCD00B5EFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66656C91CB3EFCD00B5EFA8 /* Assets.xcassets */; };
 		F66656CD1CB3EFCD00B5EFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66656CB1CB3EFCD00B5EFA8 /* LaunchScreen.storyboard */; };
@@ -19,11 +28,20 @@
 
 /* Begin PBXFileReference section */
 		F60FD0681CB3F8CC002D26D4 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		F60FD06C1CB40153002D26D4 /* Danse macabre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Danse macabre.jpg"; sourceTree = "<group>"; };
+		F60FD06D1CB40153002D26D4 /* Danse macabre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Danse macabre.mp3"; sourceTree = "<group>"; };
+		F60FD06E1CB40153002D26D4 /* Moonlight Serenade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moonlight Serenade.jpg"; sourceTree = "<group>"; };
+		F60FD06F1CB40153002D26D4 /* Moonlight Serenade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moonlight Serenade.mp3"; sourceTree = "<group>"; };
+		F60FD0701CB40153002D26D4 /* Mr. Sandman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mr. Sandman.jpg"; sourceTree = "<group>"; };
+		F60FD0711CB40153002D26D4 /* Mr. Sandman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mr. Sandman.mp3"; sourceTree = "<group>"; };
+		F60FD0721CB40153002D26D4 /* So Danço Samba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "So Danço Samba.jpg"; sourceTree = "<group>"; };
+		F60FD0731CB40153002D26D4 /* So Danço Samba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "So Danço Samba.mp3"; sourceTree = "<group>"; };
+		F60FD0741CB40153002D26D4 /* The Magnificent Seven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Magnificent Seven.jpg"; sourceTree = "<group>"; };
+		F60FD0751CB40153002D26D4 /* The Magnificent Seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Magnificent Seven.mp3"; sourceTree = "<group>"; };
+		F60FD0801CB40C1A002D26D4 /* MusicLibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibraryViewController.swift; sourceTree = "<group>"; };
 		F66656BA1CB3EFCB00B5EFA8 /* MyMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66656BD1CB3EFCC00B5EFA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66656C01CB3EFCD00B5EFA8 /* MyMusicPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMusicPlayer.xcdatamodel; sourceTree = "<group>"; };
-		F66656C21CB3EFCD00B5EFA8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		F66656C41CB3EFCD00B5EFA8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F66656C71CB3EFCD00B5EFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F66656C91CB3EFCD00B5EFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66656CC1CB3EFCD00B5EFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,10 +63,26 @@
 			isa = PBXGroup;
 			children = (
 				F60FD0681CB3F8CC002D26D4 /* MusicPlayerViewController.swift */,
-				F66656C21CB3EFCD00B5EFA8 /* MasterViewController.swift */,
-				F66656C41CB3EFCD00B5EFA8 /* DetailViewController.swift */,
+				F60FD0801CB40C1A002D26D4 /* MusicLibraryViewController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F60FD06B1CB4013E002D26D4 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				F60FD06C1CB40153002D26D4 /* Danse macabre.jpg */,
+				F60FD06D1CB40153002D26D4 /* Danse macabre.mp3 */,
+				F60FD06E1CB40153002D26D4 /* Moonlight Serenade.jpg */,
+				F60FD06F1CB40153002D26D4 /* Moonlight Serenade.mp3 */,
+				F60FD0701CB40153002D26D4 /* Mr. Sandman.jpg */,
+				F60FD0711CB40153002D26D4 /* Mr. Sandman.mp3 */,
+				F60FD0721CB40153002D26D4 /* So Danço Samba.jpg */,
+				F60FD0731CB40153002D26D4 /* So Danço Samba.mp3 */,
+				F60FD0741CB40153002D26D4 /* The Magnificent Seven.jpg */,
+				F60FD0751CB40153002D26D4 /* The Magnificent Seven.mp3 */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 		F66656B11CB3EFCB00B5EFA8 = {
@@ -70,6 +104,7 @@
 		F66656BC1CB3EFCC00B5EFA8 /* MyMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				F60FD06B1CB4013E002D26D4 /* Media */,
 				F60FD06A1CB3F90D002D26D4 /* Controllers */,
 				F66656BD1CB3EFCC00B5EFA8 /* AppDelegate.swift */,
 				F66656C61CB3EFCD00B5EFA8 /* Main.storyboard */,
@@ -139,9 +174,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60FD0771CB40153002D26D4 /* Danse macabre.mp3 in Resources */,
+				F60FD07D1CB40153002D26D4 /* So Danço Samba.mp3 in Resources */,
 				F66656CD1CB3EFCD00B5EFA8 /* LaunchScreen.storyboard in Resources */,
+				F60FD0791CB40153002D26D4 /* Moonlight Serenade.mp3 in Resources */,
 				F66656CA1CB3EFCD00B5EFA8 /* Assets.xcassets in Resources */,
+				F60FD0761CB40153002D26D4 /* Danse macabre.jpg in Resources */,
+				F60FD07A1CB40153002D26D4 /* Mr. Sandman.jpg in Resources */,
+				F60FD07E1CB40153002D26D4 /* The Magnificent Seven.jpg in Resources */,
+				F60FD07B1CB40153002D26D4 /* Mr. Sandman.mp3 in Resources */,
 				F66656C81CB3EFCD00B5EFA8 /* Main.storyboard in Resources */,
+				F60FD07C1CB40153002D26D4 /* So Danço Samba.jpg in Resources */,
+				F60FD07F1CB40153002D26D4 /* The Magnificent Seven.mp3 in Resources */,
+				F60FD0781CB40153002D26D4 /* Moonlight Serenade.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,11 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60FD0811CB40C1A002D26D4 /* MusicLibraryViewController.swift in Sources */,
 				F66656C11CB3EFCD00B5EFA8 /* MyMusicPlayer.xcdatamodeld in Sources */,
 				F66656BE1CB3EFCC00B5EFA8 /* AppDelegate.swift in Sources */,
 				F60FD0691CB3F8CC002D26D4 /* MusicPlayerViewController.swift in Sources */,
-				F66656C31CB3EFCD00B5EFA8 /* MasterViewController.swift in Sources */,
-				F66656C51CB3EFCD00B5EFA8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
