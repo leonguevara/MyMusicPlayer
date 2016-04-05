@@ -128,9 +128,20 @@
                                     <action selector="changeVolume:" destination="Uyj-k2-vbF" eventType="valueChanged" id="XWK-Ny-kfS"/>
                                 </connections>
                             </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="40Y-Z3-R4s">
+                                <rect key="frame" x="14" y="492" width="347" height="31"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="lex-dv-56M"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeSongPos" destination="Uyj-k2-vbF" eventType="valueChanged" id="sJc-z2-ihs"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="40Y-Z3-R4s" firstAttribute="centerX" secondItem="Mxk-5k-Apu" secondAttribute="centerX" id="1Ff-Ye-JJy"/>
                             <constraint firstItem="27E-3X-DKg" firstAttribute="centerX" secondItem="Mxk-5k-Apu" secondAttribute="centerX" id="1Px-Jc-v0C"/>
                             <constraint firstItem="g85-aO-IBl" firstAttribute="leading" secondItem="uUe-Ao-xlJ" secondAttribute="trailing" constant="12" id="5yv-xZ-TqF"/>
                             <constraint firstItem="uUe-Ao-xlJ" firstAttribute="leading" secondItem="Mxk-5k-Apu" secondAttribute="leadingMargin" constant="-4" id="9ST-Ak-qjX"/>
@@ -139,6 +150,7 @@
                             <constraint firstItem="FXd-pT-PNm" firstAttribute="centerX" secondItem="Mxk-5k-Apu" secondAttribute="centerX" id="KLF-Cx-44z"/>
                             <constraint firstItem="eIX-3M-tQa" firstAttribute="top" secondItem="FXd-pT-PNm" secondAttribute="bottom" constant="8" id="MfO-uD-GpJ"/>
                             <constraint firstItem="EBt-IF-apj" firstAttribute="top" secondItem="FXd-pT-PNm" secondAttribute="bottom" constant="8" id="PRU-Ar-pGu"/>
+                            <constraint firstItem="40Y-Z3-R4s" firstAttribute="trailing" secondItem="Mxk-5k-Apu" secondAttribute="trailingMargin" id="PTC-bm-T8H"/>
                             <constraint firstItem="JYd-dE-8Vr" firstAttribute="leading" secondItem="Mxk-5k-Apu" secondAttribute="leadingMargin" constant="-4" id="R0c-Zj-AkF"/>
                             <constraint firstItem="eIX-3M-tQa" firstAttribute="centerX" secondItem="Mxk-5k-Apu" secondAttribute="centerX" id="Sec-ju-KvL"/>
                             <constraint firstItem="FXd-pT-PNm" firstAttribute="trailing" secondItem="Mxk-5k-Apu" secondAttribute="trailingMargin" id="Xja-oh-IBi"/>
@@ -147,12 +159,15 @@
                             <constraint firstItem="g85-aO-IBl" firstAttribute="trailing" secondItem="Mxk-5k-Apu" secondAttribute="trailingMargin" id="ejs-26-YIi"/>
                             <constraint firstItem="27E-3X-DKg" firstAttribute="top" secondItem="8sL-AZ-DqH" secondAttribute="bottom" constant="33" id="frX-id-wAX"/>
                             <constraint firstItem="FXd-pT-PNm" firstAttribute="top" secondItem="27E-3X-DKg" secondAttribute="bottom" constant="8" id="kCR-1D-YS5"/>
+                            <constraint firstItem="40Y-Z3-R4s" firstAttribute="top" secondItem="g85-aO-IBl" secondAttribute="bottom" constant="30" id="pa8-Ec-pR8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EBt-IF-apj" secondAttribute="trailing" constant="-4" id="phf-Xr-Zl6"/>
+                            <constraint firstItem="40Y-Z3-R4s" firstAttribute="leading" secondItem="Mxk-5k-Apu" secondAttribute="leadingMargin" id="r4K-Jc-xP9"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="albumCover" destination="27E-3X-DKg" id="rgy-O3-Wuf"/>
+                        <outlet property="songPos" destination="40Y-Z3-R4s" id="Le7-B4-Dd4"/>
                         <outlet property="songTitle" destination="FXd-pT-PNm" id="Gf2-Wo-Cfh"/>
                         <outlet property="volume" destination="g85-aO-IBl" id="XbM-zF-YAb"/>
                     </connections>
